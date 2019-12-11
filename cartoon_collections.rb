@@ -4,10 +4,14 @@ def roll_call_dwarves(array)
     puts "#{counter}. #{name}"
     counter += 1
   end
-  # Your code here
+  
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(array)
+  new_array = [] 
+  array.map do |call|
+    new_array << call.upcase
+  end
   # Your code here
 end
 
