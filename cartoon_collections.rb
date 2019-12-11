@@ -4,7 +4,6 @@ def roll_call_dwarves(array)
     puts "#{counter}. #{name}"
     counter += 1
   end
-  
 end
 
 def summon_captain_planet(array)
