@@ -12,7 +12,7 @@ def summon_captain_planet(array)
   array.map do |call|
     new_array << call.upcase
   end
-  # Your code here
+  new_array
 end
 
 def long_planeteer_calls# code an argument here
