@@ -10,7 +10,8 @@ end
 def summon_captain_planet(array)
   new_array = [] 
   array.map do |call|
-    call.upcase
+    yield(call)
+      puts "#{call.upcase}!"
   end
   array
 end
